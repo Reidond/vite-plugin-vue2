@@ -231,7 +231,7 @@ function genHmrCode(
 ) {
   return `\n/* hot reload */
 import __VUE_HMR_RUNTIME__ from "${vueHotReload}"
-import vue from "vue"
+import vue from "vue2"
 __VUE_HMR_RUNTIME__.install(vue)
 if(__VUE_HMR_RUNTIME__.compatible){
   if (!__VUE_HMR_RUNTIME__.isRecorded('${id}')) {
