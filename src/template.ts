@@ -1,5 +1,5 @@
 import { SFCBlock } from '@vue/component-compiler-utils'
-import * as vueTemplateCompiler from 'vue-template-compiler'
+import * as vueTemplateCompiler from '@reidond/vue2-template-compiler'
 import { TransformPluginContext } from 'rollup'
 import { ResolvedOptions } from './index'
 import { createRollupError } from './utils/error'
